@@ -1,0 +1,65 @@
+# --- Node / JavaScript ---
+node_modules/
+logs
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Build outputs ---
+dist/
+build/
+.cache/
+.tmp/
+.temp/
+
+# --- Tooling caches ---
+.vite/
+.parcel-cache/
+.turbo/
+.vercel/
+.netlify/
+
+# --- Testing & Coverage ---
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# --- Storybook ---
+storybook-static/
+.storybook-out/
+out/
+
+# --- Environment files ---
+.env
+.env.*
+!.env.example
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# --- OS (macOS) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.apdisk
+
+# --- Misc ---
+*.local
+
